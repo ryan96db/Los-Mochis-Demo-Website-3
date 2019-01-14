@@ -1,0 +1,132 @@
+/*browser-sync start --server --directory --files "*"
+ */
+
+/*
+
+
+Centers Restaurant Name*/
+
+/*<!-- Los Mochis Logo Colors: 
+Green: #2D582B
+Yellow: #B5B610
+Red: #780C2C -->*/
+/*Solid Red: #ff0000 */
+/*Gets rid of default margin/padding in browser*/
+body {
+	background-color: #ffffff;
+	text-decoration: none;
+
+}
+
+/*Beginning of Header Nav*/
+
+.navbar {
+	margin-bottom: 0px;
+	min-height: 130px;
+}
+#header-nav {
+	background-color: #B5B610;
+}
+
+
+#toplogo {
+	/*margin-left: 200px;
+	margin-top: -10px;
+	color: #ffffff;
+	line-height: 1.4;
+	position: relative;*/
+	text-align: center;
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 150px;
+
+}
+
+#phonenumber {
+	font-size: 30px;
+	color: #ffffff;
+	display: block;
+	text-align: center;
+}
+
+#callbutton {
+	font-size: 1.5em;
+    display: block;
+    margin: 0 175px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #2D582B;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+#nav-list {
+	list-style: none;
+	float: right;
+	margin-top: 20px;
+	margin-right: 200px;
+}
+
+#facebook {
+	font-size: 40px;
+	text-align: center;
+	display: block;
+}
+
+
+.navbar-nav>li
+{
+	float: right;
+}
+/*End of Header Nav*/
+/*Beginning of Navigation Bar*/
+
+#nav {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	background-color: #780C2C;
+	min-width: 185px;
+	
+}
+
+#nav li {
+	display: inline-block;
+}
+
+#nav li a {
+	display: block;
+	padding: 7px 7px 10px 7px;
+	font-size: 22px;
+	text-decoration: none;
+	color: #ffffff;
+	/*border-right: 1px solid #ccc;*/
+	text-transform: capitalize;
+}
+
+#nav li a:hover {
+	color: #fff;
+	background-color: #2D582B;
+	border-radius: 3px;
+}
+
+
+
+/*h1 {
+	margin-top: 0px;
+	position: absolute;
+	text-align: center;
+	display: inline-block;
+	margin-bottom : 50px;
+}*/
+
+/*End of Navigation Bar*/
