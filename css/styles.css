@@ -55,7 +55,6 @@ body {
 
 #callbutton > a {
 	font-size: 20px;
-    
     padding: 10px;
     /*border: 2px solid #fff;*/
     background-color: #2D582B;
@@ -131,12 +130,11 @@ a:hover {
 
 /*End of Navigation Bar*/
 
-/*Beginning of Jumbotron*/
 /*Beginning of Image Gallery*/
 
 #slideshowimages {
 	/*width: auto;*/
-	max-height: 450px;
+	max-height: 500px;
 	text-align: center;
 	display: block;
 	left: 0;
@@ -154,5 +152,56 @@ a:hover {
 #about {
 	text-align: center;
 	font-size: 20px;
+	margin-bottom: 30px;
 }
-/*End of Jumbotron*/
+
+/*Beginning of Contact Us*/
+
+
+/* headlines with lines */
+.decorated{
+     overflow: hidden;
+     text-align: center;
+ }
+.decorated > span{
+    position: relative;
+    display: inline-block;
+    color: #000
+}
+.decorated > span:before, .decorated > span:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 2px solid#780C2C;
+    width: 591px; /* half of limiter*/
+    margin: 0 20px;
+}
+.decorated > span:before{
+    right: 100%;
+}
+.decorated > span:after{
+    left: 100%;
+}
+
+#bottomcallbutton > a {
+	font-size: 20px;
+    padding: 10px;
+    /*border: 2px solid #fff;*/
+    background-color: #2D582B;
+    color: #fff;
+    
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+   
+    
+}
+
+
+
+
+
+
+
+
+
