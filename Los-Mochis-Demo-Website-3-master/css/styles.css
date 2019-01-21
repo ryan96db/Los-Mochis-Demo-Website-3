@@ -1,0 +1,310 @@
+/*browser-sync start --server --directory --files "*"
+ */
+
+/*
+
+
+Centers Restaurant Name*/
+
+/*<!-- Los Mochis Logo Colors: 
+Green: #2D582B
+Yellow: #B5B610
+Red: #780C2C -->*/
+/*Solid Red: #ff0000 */
+/*Gets rid of default margin/padding in browser*/
+body {
+	background-color: #ffffff;
+	text-decoration: none;
+	color: #000;
+
+}
+
+/*Beginning of Header Nav*/
+
+.navbar {
+	margin-bottom: 0px;
+	min-height: 130px;
+}
+#header-nav {
+	background-color: #B5B610;
+	text-align: center;
+}
+
+
+#toplogo {
+	/*margin-left: 200px;
+	margin-top: -10px;
+	color: #ffffff;
+	line-height: 1.4;
+	position: relative;*/
+	text-align: center;
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 150px;
+
+}
+
+#phonenumber {
+	font-size: 20px;
+	color: #ffffff;
+	display: block;
+	text-align: center;
+}
+
+#callbutton > a {
+	font-size: 20px;
+    padding: 10px;
+    /*border: 2px solid #fff;*/
+    background-color: #2D582B;
+    color: #fff;
+    margin-bottom: 20px;
+    text-decoration: none;
+   
+    
+}
+a:hover {
+	text-decoration: none;
+}
+
+#nav-list {
+	list-style: none;
+	float: right;
+	margin-top: 20px;
+	margin-right: 200px;
+}
+
+#facebook {
+	font-size: 40px;
+	text-align: center;
+	
+}
+
+.navbar-nav>li
+{
+	float: right;
+}
+/*End of Header Nav*/
+/*Beginning of Navigation Bar*/
+
+#nav {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	background-color: #780C2C;
+	min-width: 185px;
+	
+	
+}
+
+#nav li {
+	display: inline-block;
+}
+
+#nav li a {
+	display: block;
+	padding: 7px 7px 10px 7px;
+	font-size: 22px;
+	text-decoration: none;
+	color: #ffffff;
+	/*border-right: 1px solid #ccc;*/
+	text-transform: capitalize;
+}
+
+#nav li a:hover {
+	color: #fff;
+	background-color: #2D582B;
+	border-radius: 3px;
+}
+
+
+
+/*h1 {
+	margin-top: 0px;
+	position: absolute;
+	text-align: center;
+	display: inline-block;
+	margin-bottom : 50px;
+}*/
+
+/*End of Navigation Bar*/
+
+/*Beginning of Image Gallery*/
+
+#slideshowimages {
+	/*width: auto;*/
+	max-height: 500px;
+	text-align: center;
+	display: block;
+	left: 0;
+	right: 0;
+
+}
+
+.img-responsive {
+	width: 100%;
+	margin-top: 20px;
+}
+
+/*End of Image Gallery*/
+
+#about {
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+/*Beginning of Contact Us*/
+
+#businesshours {
+	text-align: justify;
+	font-size: 16px;
+}
+
+#bottomaddress {
+	font-size: 16px;
+}
+
+
+/* headlines with lines */
+.decorated{
+     overflow: hidden;
+     text-align: center;
+ }
+.decorated > span{
+    position: relative;
+    display: inline-block;
+    color: #000
+}
+.decorated > span:before, .decorated > span:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 2px solid#780C2C;
+    width: 591px; /* half of limiter*/
+    margin: 0 20px;
+}
+.decorated > span:before{
+    right: 100%;
+}
+.decorated > span:after{
+    left: 100%;
+}
+
+#bottomcallbutton > a {
+	font-size: 20px;
+    padding: 10px;
+    /*border: 2px solid #fff;*/
+    background-color: #2D582B;
+    color: #fff;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+   
+    
+}
+
+/*Dropdown menu button*/
+
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  font-family: inherit;
+  margin: 0;
+  position: fixed;
+  z-index: 10;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  overflow-y: scroll;
+  height: 350px;
+
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+  display: block;
+ 
+}
+
+#myDropdown a:hover {
+	background-color: #2D582B;
+}
+
+#menubutton {
+	font-size: 25px;
+	background-color: black;
+
+}
+.glyphicon-cutlery {
+	color: #B5B610;
+	padding: 3px;
+}
+
+/*End of Dropdown Menu Button*/
+/*Menu Items and Description*/
+h3 {
+	color: #000;
+}
+
+p {
+	color: #000;
+	font-style: italic;
+
+}
+
+#prices {
+	float: right;
+	margin-top: 12px;
+	clear: right;
+	font-size: 18px;
+}
+
+#menu-details {
+	text-align: center;
+}
+
+#chile-relleno {
+	margin-left: 50px;
+	font-size: 1.1em;
+	clear: left;
+}
+
+#prices2 {
+	float: right;
+	margin-top: 7px;
+	clear: right;
+	font-size: 18px;
+}
+
+/*End of Menu Page*/
+
+.webpage-sections {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
