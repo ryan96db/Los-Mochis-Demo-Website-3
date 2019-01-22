@@ -15,6 +15,7 @@ Red: #780C2C -->*/
 body {
 	background-color: #ffffff;
 	text-decoration: none;
+	color: #000;
 
 }
 
@@ -96,6 +97,7 @@ a:hover {
 	background-color: #780C2C;
 	min-width: 185px;
 	
+	
 }
 
 #nav li {
@@ -157,6 +159,15 @@ a:hover {
 
 /*Beginning of Contact Us*/
 
+#businesshours {
+	text-align: justify;
+	font-size: 16px;
+}
+
+#bottomaddress {
+	font-size: 16px;
+}
+
 
 /* headlines with lines */
 .decorated{
@@ -189,12 +200,104 @@ a:hover {
     /*border: 2px solid #fff;*/
     background-color: #2D582B;
     color: #fff;
-    
     position: relative;
     text-decoration: none;
     display: inline-block;
    
     
+}
+
+/*Dropdown menu button*/
+
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  font-family: inherit;
+  margin: 0;
+  position: fixed;
+  z-index: 10;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  overflow-y: scroll;
+  height: 350px;
+
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+  display: block;
+ 
+}
+
+#myDropdown a:hover {
+	background-color: #2D582B;
+}
+
+#menubutton {
+	font-size: 25px;
+	background-color: black;
+
+}
+.glyphicon-cutlery {
+	color: #B5B610;
+	padding: 3px;
+}
+
+/*End of Dropdown Menu Button*/
+/*Menu Items and Description*/
+h3 {
+	color: #000;
+}
+
+p {
+	color: #000;
+	font-style: italic;
+
+}
+
+#prices {
+	float: right;
+	margin-top: 12px;
+	clear: right;
+	font-size: 18px;
+}
+
+#menu-details {
+	text-align: center;
+}
+
+#chile-relleno {
+	margin-left: 50px;
+	font-size: 1.1em;
+	clear: left;
+}
+
+#prices2 {
+	float: right;
+	margin-top: 7px;
+	clear: right;
+	font-size: 18px;
+}
+
+/*End of Menu Page*/
+
+.webpage-sections {
+	text-align: center;
 }
 
 
