@@ -97,7 +97,6 @@ a:hover {
 	background-color: #780C2C;
 	min-width: 185px;
 	
-	
 }
 
 #nav li {
@@ -135,14 +134,13 @@ a:hover {
 /*Beginning of Image Gallery*/
 
 #slideshowimages {
-	/*width: auto;*/
 	max-height: 500px;
 	text-align: center;
 	display: block;
 	left: 0;
 	right: 0;
-
 }
+
 
 .img-responsive {
 	width: 100%;
